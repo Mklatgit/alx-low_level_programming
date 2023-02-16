@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - size of computer
+ * main - Size of computer
  *
- * Return 0 (success)
+ * Return: Always 0 (Success)
+ *
  */
 int main(void)
 {
