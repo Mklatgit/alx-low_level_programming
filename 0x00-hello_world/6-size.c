@@ -14,3 +14,4 @@ int main(void)
 	printf("Size of float: %d byte(s)", sizeof(float));
 
 	return (0);
+}
