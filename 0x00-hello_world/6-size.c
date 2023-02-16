@@ -4,7 +4,6 @@
  * main - Size of computer
  *
  * Return: Always 0 (Success)
- *
  */
 int main(void)
 {
