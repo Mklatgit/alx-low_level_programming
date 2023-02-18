@@ -17,8 +17,8 @@ int main(void)
 	{
 		bb = cc / 10;
 		aa = cc % 10;
-		putchar(aa + '0');
 		putchar(bb + '0');
+		putchar(aa + '0');
 		if (cc < 89)
 		{
 			putchar(',');
