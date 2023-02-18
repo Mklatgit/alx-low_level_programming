@@ -13,7 +13,7 @@ int main(void)
 
 	for (cc = 0; cc < 10; cc++)
 	{
-		putchar(cc);
+		printf("%d", cc);
 	}
 	putchar('\n');
 	return (0);
