@@ -27,7 +27,7 @@ int main(void)
 	}
 	else
 	{
-		printf(" is %d and is %d\n", last_n);
+		printf(" is %d and is 0\n", last_n);
 	}
 	return (0);
 }
