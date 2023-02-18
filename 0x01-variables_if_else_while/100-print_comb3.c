@@ -13,13 +13,13 @@ int main(void)
 {
 	int cc, bb, aa;
 
-	for (cc = 0; cc < 100; cc++)
+	for (cc = 0; cc < 90; cc++)
 	{
 		bb = cc / 10;
 		aa = cc % 10;
 		putchar(aa + '0');
 		putchar(bb + '0');
-		if (cc < 99)
+		if (cc < 89)
 		{
 			putchar(',');
 			putchar(' ');
