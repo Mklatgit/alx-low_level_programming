@@ -14,7 +14,8 @@ int main(void)
 	for (cc = 0; cc < 10; cc++)
 	{
 		putchar(cc + '0');
-		putchar(', ');
+		putchar(',');
+		putchar(' ');
 	}
 	putchar('\n');
 	return (0);
