@@ -11,7 +11,7 @@ int main(void)
 {
 	char cc;
 
-	for (cc = 'z'; cc >= 'a'; cc++)
+	for (cc = 'z'; cc >= 'a'; cc--)
 	{
 		putchar(cc);
 	}
