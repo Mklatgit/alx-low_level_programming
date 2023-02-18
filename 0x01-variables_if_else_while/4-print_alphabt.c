@@ -13,7 +13,8 @@ int main(void)
 
 	for (cc = 'a'; cc <= 'z'; cc++)
 	{
-		putchar(cc);
+		if (cc != 'e' && cc != 'q')
+			putchar(cc);
 	}
 	putchar('\n');
 	return (0);
