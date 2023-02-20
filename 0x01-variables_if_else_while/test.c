@@ -12,21 +12,22 @@
  */
 int main(void)
 {
-	int aa, bb;
+	int cc, bb, aa, dd = 0, ee, num;
 
-	for (aa = 0; aa < 9; aa++)
+	for (cc = 1; cc < 90; cc++)
 	{
-		for (bb = aa + 1; bb < 10; bb++)
+		bb = cc / 10;
+		aa = cc % 10;
+		ee = cc;
+
+		if (bb != aa)
 		{
-			if (aa != bb)
+			putchar(bb + '0');
+			putchar(aa + '0');
+			if (bb + cc = 17)
 			{
-				putchar(aa + '0');
-				putchar(bb + '0');
-				if (aa + bb < 17)
-				{
-					putchar(',');
-					putchar(' ');
-				}
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
