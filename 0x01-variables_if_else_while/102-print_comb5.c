@@ -12,26 +12,23 @@
  */
 int main(void)
 {
-	int aa, bb, cc, dd;
+	int aa, bb;
 
-	for (aa = 0; aa < 10; aa++)
+	for (aa = 0; aa < 99; aa++)
 	{
-		for (bb = aa + 1; bb < 9; bb++)
+		for (bb = aa + 1; bb < 100; bb++)
 		{
-			for (cc = 0; cc < 10; cc++)
+			if (aa != bb)
 			{
-				for (dd = cc + 1; dd < 10; dd++)
+				putchar((aa / 10) + '0');
+				putchar((aa % 10) + '0');
+				putchar(' ');
+				putchar((bb / 10) + '0');
+				putchar((bb % 10) + '0');
+				putchar(',');
+				if (aa == 98 && bb == 99)
 				{
-					putchar(aa + '0');
-					putchar(bb + '0');
 					putchar(' ');
-					putchar(cc + '0');
-					putchar(dd + '0');
-					if (aa != 10 || bb != 9 || cc != 10 || dd != 10)
-					{
-						putchar(',');
-						putchar(' ');
-					}
 				}
 			}
 		}
