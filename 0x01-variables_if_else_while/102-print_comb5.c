@@ -25,10 +25,10 @@ int main(void)
 				putchar(' ');
 				putchar((bb / 10) + '0');
 				putchar((bb % 10) + '0');
-				putchar(',');
-				putchar(' ');
 				if (aa == 98 && bb == 99)
+					continue;
 				{
+					putchar(',');
 					putchar(' ');
 				}
 			}
