@@ -18,9 +18,11 @@ void times_table(void)
 			if (cc < 10)
 			{
 				_putchar(' ');
+				_putchar(' ');
 			}
 			else
 			{
+				_putchar(' ');
 				_putchar((cc / 10) + '0');
 			}
 			_putchar((cc % 10) + '0');
