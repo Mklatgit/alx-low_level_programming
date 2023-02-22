@@ -15,10 +15,20 @@ void times_table(void)
 		for (bb = 0; bb < 10; bb++)
 		{
 			cc = bb * aa;
-			_putchar(cc + '0');
-			_putchar(',');
 			_putchar(' ');
-			cc = 0;
+			if (cc < 10)
+			{
+				_putchar(' ');
+			}
+			else
+			{
+				_putchar((cc / 10) + '0');
+			}
+			_putchar((cc % 10) + '0');
+			if (bb != 9)
+			{
+				_putchar(',');
+			}
 		}
 		_putchar('\n');
 	}
