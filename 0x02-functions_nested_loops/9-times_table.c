@@ -18,7 +18,6 @@ void times_table(void)
 			if (cc < 10)
 			{
 				_putchar(' ');
-			
 			}
 			else
 			{
