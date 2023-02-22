@@ -15,7 +15,6 @@ void times_table(void)
 		for (bb = 0; bb < 10; bb++)
 		{
 			cc = bb * aa;
-			_putchar(' ');
 			if (cc < 10)
 			{
 				_putchar(' ');
