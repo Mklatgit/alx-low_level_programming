@@ -8,7 +8,8 @@
 int main(void)
 {
 	long int a, n = 4000000;
-	long int f, b = 0, c = 1, summ = 0;
+	long int f, b = 0, c = 1;
+	long long int summ = 0;
 
 	for (a = 1; a < n; a++)
 	{
@@ -20,6 +21,6 @@ int main(void)
 			summ = summ + f;
 		}
 	}
-	printf("%ld\n", summ);
+	printf("%lld\n", summ);
 	return (0);
 }
