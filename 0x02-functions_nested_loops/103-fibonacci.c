@@ -20,5 +20,6 @@ int main(void)
 			summ = summ + f;
 		}
 	}
+	printf("%ld\n", summ);
 	return (0);
 }
