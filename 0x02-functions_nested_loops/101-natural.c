@@ -8,7 +8,6 @@
 int main(void)
 {
 	int a, b = 0, n = 1024;
-	int summ = 0;
 
 	for (a = 0; a < n; a++)
 	{
