@@ -15,7 +15,7 @@ int main(void)
 		f = b + c;
 		b = c;
 		c = f;
-		printf("%d", f);
+		printf("%ld", f);
 		if (a != n)
 		{
 			printf(",");
