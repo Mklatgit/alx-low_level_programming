@@ -19,8 +19,8 @@ int main(void)
 		if (a != n)
 		{
 			printf(",");
+			printf(" ");
 		}
-		printf(" ");
 	}
 	printf("\n");
 	return (0);
