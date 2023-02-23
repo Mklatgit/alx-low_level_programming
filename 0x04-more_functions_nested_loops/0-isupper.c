@@ -1,7 +1,7 @@
 #include <unistd.h>
 #include "main.h"
 /**
- * _islower - checks if upprt or lower case alphabets
+ * _isupper - checks if input id upper case alphabets
  * @c: The character to print
  *
  * Return: On success 1
