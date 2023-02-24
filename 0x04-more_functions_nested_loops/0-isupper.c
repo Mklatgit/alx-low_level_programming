@@ -9,10 +9,16 @@
  */
 int _isupper(int c)
 {
-	if ( c >= 65 || c <=90)
+	int ab;
+
+	for (ab = 'A'; ab <= 'Z'; ab++)
 	{
-		return (1);
+		if (c == ab)
+		{
+			return (1);
+		}
+		else
+			return (0);
 	}
-	else
-		return (0);
+	return (0);
 }
