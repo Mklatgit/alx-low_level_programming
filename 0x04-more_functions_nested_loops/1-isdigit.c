@@ -9,16 +9,10 @@
  */
 int _isdigit(int c)
 {
-	int ab;
-
-	for (ab = 0; ab < 10; ab++)
+	if (c >= '0' && c <= '9')
 	{
-		if (c == ab)
-		{
-			return (1);
-		}
-		else
-			return (0);
+		return (1);
 	}
-	return (0);
+	else
+		return (0);
 }
