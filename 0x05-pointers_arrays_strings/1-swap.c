@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * reset_to_98 - resets input to given value
+ * swap_int - swaps pointers
  *@a: input pointer
  *@b: second input pointer
  *
@@ -11,7 +11,7 @@
 void swap_int(int *a, int *b)
 {
 	int swap;
-	
+
 	swap = *a;
 	*a = *b;
 	*b = swap;
