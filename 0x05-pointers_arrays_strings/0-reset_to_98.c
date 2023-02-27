@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- * reset_to_98 - resets input to given value 
+ * reset_to_98 - resets input to given value
+ *@n: input pointer
  *
  * Return: Always 0.
  */
