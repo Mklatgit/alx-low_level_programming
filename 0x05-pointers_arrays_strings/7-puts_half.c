@@ -9,8 +9,8 @@
 void puts_half(char *s)
 {
 	int a, b, c;
-	c = 0;
-	
+
+	c = 0;	
 	for (a = 0; s[a] != '\0'; a++)
 	{
 		c++;
