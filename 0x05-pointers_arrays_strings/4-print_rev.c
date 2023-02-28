@@ -2,31 +2,25 @@
 /**
  * print_rev- print string
  *@s: input pointer to string
- *@n: length of string
- *_strlen- returns length of string
+ *
+ *
  * Return: Always 0.
  */
 void print_rev(char *s)
 {
-	int len, i;
-	char *fst, *lst, tmp;
+	int len = 0;
+	int t;
 	
-	len = _strlen(s);
-	fst = s;
-	lst = s;
-	
-	for (i = 0; i < len - 1; i++)
+	while (*s != '\0')
 	{
-		lst ++;
+		len++;
+		s++;
 	}
-	for (i = 0; i < len / 2; i++)
+	s --;
+	for (t = len; t > 0; t--)
 	{
-		tmp = *lst;
-		*lst = *fst;
-		*fst = tmp;
-		fst ++;
-		lst --;
+		_putchar(*s);
+		s--;
 	}
-	_putchar(tmp);	
-	
+	_putchar('\n');
 }
