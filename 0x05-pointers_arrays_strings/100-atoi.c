@@ -10,7 +10,7 @@
 int _atoi(char *s)
 {
 	int len, digit, con, i, j, n;
-	
+
 	len = 0;
 	digit = 0;
 	con = 0;
@@ -32,7 +32,7 @@ int _atoi(char *s)
 			digit = s[i] - '0';
 			if (j % 2)
 			{
-				digit =- digit;
+				digit = -digit;
 			}
 			n = n * 10 + digit;
 			con = 1;
