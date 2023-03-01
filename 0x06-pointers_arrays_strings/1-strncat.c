@@ -5,10 +5,11 @@
  * _strcat - concatenates two strings
  *@dest: input string
  *@src: input string
+ *@n: more bytes for source string
  *
  * Return: Always 0.
  */
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 	int len, mover;
 	
@@ -18,7 +19,7 @@ char *_strcat(char *dest, char *src)
 	{
 		len++;
 	}
-	while (src[mover] != '\0')
+	while (mover < n && src[mover] != '\0')
 	{
 		dest[len] = src[mover];
 		len++;
