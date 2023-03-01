@@ -2,27 +2,20 @@
 #include <stdio.h>
 
 /**
- * _strncpy - concatenates two strings
- *@dest: input string
- *@src: input string
- *@n: more bytes for source string
- *
- * Return: Always 0.
+ * string_toupper - changes string from lower to upper cases
+ * @src: input string
+ * Return: n
  */
-char *_strncpy(char *dest, char *src, int n)
+char *string_toupper(char *src)
 {
 	int len;
 
 	len = 0;
-	while (len < n && src[len] != '\0')
+	while (src[len] != '\0')
 	{
-		dest[len] = src[len];
+		if (src[len] >= 'a' && src[len] <= 'z')
+			src[len] = src[len] - 32;
 		len++;
 	}
-	while (len < n)
-	{
-		dest[len] = '\0';
-		len++;
-	}
-	return (dest);
+	return (src);
 }
