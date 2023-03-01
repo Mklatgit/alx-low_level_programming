@@ -25,8 +25,6 @@ char *cap_string(char *src)
 			if (src[len] >= 'A' && src[len] <= 'Z')
 				src[len] = src[len] + 32;
 		}
-			
-		
 	}
 	return (src);
 }
