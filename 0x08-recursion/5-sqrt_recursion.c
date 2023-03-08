@@ -22,15 +22,13 @@ int _sqrt_recursion(int n)
  */
 int _sqrt_num(int x, int y)
 {
-	int val = x;
-	int counter = 1 + y;
-	int sqroot = 1, output;
-
-	while (sqroot <= val)
+	if (y * y > n)
 	{
-		counter++;
-		sqroot = counter * counter;
+		return (-1);
 	}
-	output = counter - 1;
-	return (output);
+	else if (y * y == n)
+	{
+		return (y);
+	}
+	return(_sqrt_num(n, y + 1));
 }
