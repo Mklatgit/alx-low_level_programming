@@ -35,7 +35,7 @@ int _palindrome(char *x, int y, int z)
 }
 /**
  * str_lenght - check lenght of string
- *@n: input string
+ *@s: input string
  * Return: Always 0.
  */
 int str_lenght(char *s)
