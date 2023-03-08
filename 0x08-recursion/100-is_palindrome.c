@@ -23,7 +23,7 @@ int is_palindrome(char *s)
  */
 int _palindrome(char *x, int y, int z)
 {
-	if (*x == 0 || y < 0 || z < 0)
+	if (*(x + y) != *(x + z - 1))
 	{
 		return (0);
 	}
@@ -31,7 +31,7 @@ int _palindrome(char *x, int y, int z)
 	{
 		return (1);
 	}
-	return (_palindrome(x, y + 1, z -1));
+	return (_palindrome(x, y + 1, z - 1));
 }
 /**
  * str_lenght - check lenght of string
