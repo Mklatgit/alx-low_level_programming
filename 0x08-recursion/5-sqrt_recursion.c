@@ -30,5 +30,5 @@ int _sqrt_num(int x, int y)
 	{
 		return (y);
 	}
-	return(_sqrt_num(x, y + 1));
+	return (_sqrt_num(x, y + 1));
 }
