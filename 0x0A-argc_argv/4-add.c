@@ -12,7 +12,7 @@ int check_digit(char *s)
 {
 	unsigned int i;
 
-	for (i = 0; i < strlen(s); i ++)
+	for (i = 0; i < strlen(s); i++)
 	{
 		if (!isdigit(s[i]))
 			return (0);
