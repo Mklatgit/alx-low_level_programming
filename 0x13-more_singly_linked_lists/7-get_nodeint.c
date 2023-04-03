@@ -2,7 +2,7 @@
 
 /**
  * get_nodeint_at_index - returns the nth node of linked list
- * @h: list to check
+ * @head: list to check
  * @index: location of the node
  *
  * Return: nth node of the list.
